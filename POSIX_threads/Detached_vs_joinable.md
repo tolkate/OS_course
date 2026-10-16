@@ -106,3 +106,4 @@ systemctl show --property DefaultTasksMax
   ```
   systemctl status user-`id -u`.slice | grep Tasks
   ```
+Больше о лимитах в официальной доке, например, [SuSe](https://documentation.suse.com/sles/15-SP4/html/SLES-all/cha-tuning-cgroups.html)
